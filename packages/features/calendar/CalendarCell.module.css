@@ -1,0 +1,22 @@
+.cell {
+  padding: 1rem;
+  color: var(--cadet);
+  border-radius: 9999px;
+}
+.selected {
+  background: var(--kombu-green);
+  color: var(--ivory);
+}
+
+.disabled {
+  color: var(--sage);
+}
+
+.unavailable {
+  color: blue;
+}
+
+.defaultDate:not(.selected):not(:focus) {
+  outline: 1px dashed var(--cadet);
+  color: var(--cadet);
+}
